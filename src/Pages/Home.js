@@ -1,5 +1,13 @@
+import { Fragment } from "react";
+
 const Home = ()=>{
-    return <div></div>
+    return (
+    <Fragment>
+    <div>Hello World</div>
+    <div></div>
+    </Fragment>
+
+    )
 }
 
 export default Home;
