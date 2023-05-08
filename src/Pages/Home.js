@@ -3,10 +3,11 @@ import { Fragment } from "react";
 const Home = ()=>{
     return (
     <Fragment>
-    <div>Hello World</div>
+    <div className="">
     <div></div>
+    <div></div>
+    </div>
     </Fragment>
-
     )
 }
 

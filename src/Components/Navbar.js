@@ -5,7 +5,7 @@ import {TbShoppingCartPlus} from "react-icons/tb"
 const  Navbar = ()=>{
     return(
         <Fragment>
-            <nav className="flex justify-evenly mt-7">
+            {/* <nav className="flex justify-evenly mt-7">
                 <Link to={'/'}  exact="true">ShopCart</Link>
                 <Link to={'/'}  exact="true">Categories</Link>
                 <Link to={'/'}  exact="true">Deals</Link>
@@ -21,7 +21,7 @@ const  Navbar = ()=>{
                 <div className="flex justify-around ">
                 <TbShoppingCartPlus className="m-1"/> Cart
                 </div></Link>
-            </nav>
+            </nav> */}
         </Fragment>
     )
 
